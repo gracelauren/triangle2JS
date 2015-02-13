@@ -4,8 +4,10 @@ This is an app that allows the user to enter in sides of a triangle and see what
 ```
 Clone repository and open the triangle-js.html file.
 ```
-### Bug Reports
+### Bug Reports:
+```
 If the user enters in an exclamation point before the number, the result will be incorrect.
-### Author
+```
+### Author:
 Alex Kaufman
 #### MIT License
