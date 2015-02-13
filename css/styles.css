@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+#result {
+  display: none;
+}
+
+body {
+  background-image: url(../css/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #FFF;
+}
