@@ -9,5 +9,7 @@ var triangle = function(sideA, sideB, sideC) {
     return "Equilateral"
   } else if ((sideA !== sideB) && (sideB !== sideC)) {
     return "Scalene"
+  } else {
+    return "Isosceles"
   }
 };

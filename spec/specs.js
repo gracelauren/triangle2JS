@@ -11,7 +11,7 @@ describe('triangle', function() {
     expect(triangle(6,12,14)).to.equal('Scalene');
   });
 
-  it('returns isosceles for an isosceles triangle', function() {
+  it('returns isosceles for isosceles triangles', function() {
     expect(triangle(3,3,2)).to.equal('Isosceles')
   });
 });
