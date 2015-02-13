@@ -5,7 +5,7 @@ var triangle = function(sideA, sideB, sideC) {
     return "NOT A TRIANGLE!"
   } else if (sideB + sideC <= sideA) {
     return "NOT A TRIANGLE!"
-  } else {
-    
+  } else if ((sideA === sideB) && (sideB === sideC)) {
+    return "Equilateral"
   }
 };
