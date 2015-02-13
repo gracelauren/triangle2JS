@@ -12,6 +12,6 @@ describe('triangle', function() {
   });
 
   it('returns isosceles for isosceles triangles', function() {
-    expect(triangle(3,3,2)).to.equal('Isosceles')
+    expect(triangle(3,3,2)).to.equal('Isosceles');
   });
 });

@@ -13,8 +13,12 @@
       <div class="form">
         <form id="triangle-finder">
           <div class="form-group">
-            <label for="sides">Enter the sides of your triangle separated by commas:</label>
-            <input id="sides" type="text" class="form-control" autofocus required>
+            <label for="side-a">Enter the length of side A:</label>
+            <input id="side-a" type="text" class="form-control" autofocus required>
+            <label for="side-b">Enter the length of side B:</label>
+            <input id="side-b" type="text" class="form-control" required>
+            <label for="side-c">Enter the length of side C:</label>
+            <input id="side-c" type="text" class="form-control" required>
           </div>
 
           <button type="submit" class="btn btn-success">Triangle?</button>
@@ -22,7 +26,7 @@
       </div>
 
       <div id="result">
-        <p><strong>Your input was:</strong> <span class="triangle-type"></span></p>
+        <p><strong>Your triangle was:</strong> <span class="triangle-type"></span></p>
       </div>
     </div>
   </body>
