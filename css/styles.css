@@ -11,3 +11,67 @@ body {
   background-attachment: fixed;
   color: #FFF;
 }
+
+h1 {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+ul {
+  list-style-image: url('triangle.gif');
+}
+
+.Atriangle {
+
+}
+
+.Aisosceles {
+  width: 0;
+  height: 0;
+  text-indent: -9999px;
+  border-right: 50px solid transparent;
+  border-bottom: 150px solid #fff;
+  border-left: 50px solid transparent;
+}
+
+.Aequilateral {
+  width: 0;
+  height: 0;
+  text-indent: -9999px;
+  border-right: 80px solid transparent;
+  border-bottom: 130px solid #fff;
+  border-left: 80px solid transparent;
+}
+
+.Ascalene {
+  width: 0;
+  height: 0;
+  text-indent: -9999px;
+  border-right: 40px solid transparent;
+  border-bottom: 100px solid #fff;
+  border-left: 150px solid transparent;
+}
+
+.Aicono-cross{
+  color: red;
+  width: 100%;
+  height: 100%;
+  }
+
+.Aicono-cross::before{
+  width: 150px;
+  height: 15px;
+}
+
+.Aicono-cross::after{
+  width: 15px;
+  height: 150px;
+}
+
+.midTriangle {
+  position: relative;
+  width: 100%;
+  height: 426px;
+  width: 215;
+  padding-top: 40%;
+}

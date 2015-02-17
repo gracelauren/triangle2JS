@@ -7,27 +7,60 @@
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-1.11.2.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.3/jquery-ui.js"></script>
     <script src="js/scripts.js"></script>
-    <title>| &iexcl;Triangles! |</title>
+    <title>| ¡Triangles! |</title>
   </head>
   <body>
     <div class="container">
-      <h1>&iexcl;Triangles!</h1>
-      <div class="form">
-        <form id="triangle-finder">
-          <div class="form-group">
-            <label for="side-a">Enter the length of side A:</label>
-            <input id="side-a" type="text" class="form-control" autofocus required>
-            <label for="side-b">Enter the length of side B:</label>
-            <input id="side-b" type="text" class="form-control" required>
-            <label for="side-c">Enter the length of side C:</label>
-            <input id="side-c" type="text" class="form-control" required>
-          </div>
-          <button type="submit" class="btn btn-success">Triangle?</button>
-        </form>
+      <div class="row">
+        <h1>¡Triangles!</h1>
       </div>
-      <div id="result">
-        <p><strong>Your triangle was:</strong> <span class="triangle-type"></span></p>
+      <div class="row">
+        <div class="col-md-3">
+          <h2>New Triangle</h2>
+          <div class="form">
+            <form id="triangle-finder">
+              <div class="form-group">
+                <label for="side-a">Enter the length of side A:</label>
+                <input id="side-a" type="text" class="form-control" autofocus required>
+                <label for="side-b">Enter the length of side B:</label>
+                <input id="side-b" type="text" class="form-control" required>
+                <label for="side-c">Enter the length of side C:</label>
+                <input id="side-c" type="text" class="form-control" required>
+              </div>
+              <button type="submit" class="btn btn-success">Triangle?</button>
+            </form>
+          </div>
+          <div id="result">
+            <p><strong>Your triangle was:</strong> <span class="triangle-type"></span></p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <h2>Equilateral</h2>
+          <ul class="equilateral">
+
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h2>Isosceles</h2>
+          <ul class="isosceles">
+
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h2>Scalene</h2>
+          <ul class="scalene">
+
+          </ul>
+        </div>
+      </div>
+      <div class = 'row'>
+       <div class="col-md-6">
+          <div class="midTriangle">
+            <div id="tType" class="Atriangle"></div>
+          </div>
+        </div>
       </div>
     </div>
   </body>
