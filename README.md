@@ -9,5 +9,5 @@ Clone repository and open the triangle-js.html file.
 If the user enters in an exclamation point before the number, the result will be incorrect.
 ```
 ### Author:
-Alex Kaufman
+Alex Kaufman and Grace Mekarski 
 #### MIT License
